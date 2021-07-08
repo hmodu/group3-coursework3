@@ -63,7 +63,7 @@ export default {
     },
   },
   created: function() {
-    fetch("http://localhost:3000/lessons")
+    fetch("https://moscst3145.herokuapp.com/collection/products/' + product._id")
       .then((response) => {
         return response.json();
       })
